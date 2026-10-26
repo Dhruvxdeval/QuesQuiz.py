@@ -2,7 +2,7 @@ print("Welcome to my computer quiz!")
 
 playing = input("Want to play? : ")
 score = 0
-if playing != "yes":
+if playing.lower != "yes":
   quit()
 
 print("okay! let's gooooo..")
